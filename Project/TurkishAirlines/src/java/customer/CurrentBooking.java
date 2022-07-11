@@ -45,5 +45,783 @@ public class CurrentBooking extends HttpServlet {
         request.setAttribute("seats", seats);
                 
         request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
-    }    
+    }
+    
+    /*
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    v
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }   
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }
+    
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+
+        Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+        ArrayList<Seat> seats = customer.getCurrentBooking();
+        
+        request.setAttribute("seats", seats);
+                
+        request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+    }@Override
+            protected void doGet(HttpServletRequest request, HttpServletResponse response)
+                    throws ServletException, IOException {
+
+                Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+                ArrayList<Seat> seats = customer.getCurrentBooking();
+                
+                request.setAttribute("seats", seats);
+                        
+                request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+            }
+            
+            @Override
+            protected void doPost(HttpServletRequest request, HttpServletResponse response)
+                    throws ServletException, IOException {
+
+                Customer customer = (Customer)(request.getSession(false).getAttribute("customer"));
+
+                ArrayList<Seat> seats = customer.getCurrentBooking();
+                
+                request.setAttribute("seats", seats);
+                        
+                request.getRequestDispatcher("CurrentBooking.jsp").forward(request,response);
+            }   
+            */
 }

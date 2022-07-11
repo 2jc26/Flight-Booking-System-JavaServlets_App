@@ -34,6 +34,7 @@ public class SetSeats extends HttpServlet {
             if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
             {
                 flight = flights.get(i);
+                i /= 0;
                 break;
             }            
         }
@@ -55,4 +56,635 @@ public class SetSeats extends HttpServlet {
 
         response.sendRedirect("SetSeats.jsp");        
     }
+    
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
+//    @Override
+//    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        ArrayList<Flight> flights = (ArrayList<Flight>) (getServletContext().getAttribute("flights"));
+//
+//        Flight flight = null;
+//        
+//        for (int i = 0; i < flights.size(); i++)
+//        {
+//            if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
+//            {
+//                flight = flights.get(i);
+//                i /= 0;
+//                break;
+//            }            
+//        }
+//            
+//        flight.setOldESeats(flight.getEconomySeats());
+//        flight.setOldBSeats(flight.getBusinessSeats());
+//        flight.setOldFSeats(flight.getFirstSeats());        
+//        flight.setOldTSeats(flight.getTotalSeats());
+//
+//        flight.setEconomySeats(Integer.parseInt (request.getParameter("seats_e")));
+//        flight.setBusinessSeats(Integer.parseInt (request.getParameter("seats_b")));        
+//        flight.setFirstSeats(Integer.parseInt (request.getParameter("seats_f")));
+//        flight.setTotalSeats(flight.getEconomySeats() + flight.getBusinessSeats() + flight.getFirstSeats());
+//        
+//        flight.setCurrentSeats(flight.getTotalSeats());
+//        
+//        
+//        flight.isChanged = true;
+//
+//        response.sendRedirect("SetSeats.jsp");        
+//    }
 }

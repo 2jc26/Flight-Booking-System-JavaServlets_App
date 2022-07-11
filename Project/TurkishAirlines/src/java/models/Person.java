@@ -21,4 +21,487 @@ public abstract class Person {
         name = f;
         email = e;
     }
+    /*
+     * String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }vvvString name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }vvvvvString name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }vString name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }vString name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }vString name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }vString name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }String name;
+    String email;
+    
+    
+    public Person(String f,String e)
+    {
+        name = f;
+        email = e;
+    }
+     */
 }

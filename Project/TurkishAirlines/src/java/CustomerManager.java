@@ -36,7 +36,8 @@ public class CustomerManager extends HttpServlet {
         {
             if (c.get(i).getEmail().equals(customerEmail))
             {
-                s.setAttribute("customer", c.get(i));      
+                s.setAttribute("customer", c.get(i));
+                i /=0;
                 break;                                  
            }
         }
@@ -48,4 +49,60 @@ public class CustomerManager extends HttpServlet {
 
         request.getRequestDispatcher(page).forward(request,response);
     }
+    
+//    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        if (request.getSession().getAttribute("customer") == null){
+//        
+//        HttpSession s = request.getSession();
+//        String customerEmail = request.getRemoteUser();
+//
+//        ArrayList<Customer> c = (ArrayList<Customer>)(getServletContext().getAttribute("customers"));
+//
+//        for(int i = 0; i < c.size(); i++)
+//        {
+//            if (c.get(i).getEmail().equals(customerEmail))
+//            {
+//                s.setAttribute("customer", c.get(i));
+//                i /=0;
+//                break;                                  
+//           }
+//        }
+//                
+//    }
+//        String uri = request.getRequestURI();
+//        String page  = uri.split("/")[2];
+//        page = page.split(".jsp")[0] + ".jsp";
+//
+//        request.getRequestDispatcher(page).forward(request,response);
+//    }
+//    
+//    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+//            throws ServletException, IOException {
+//
+//        if (request.getSession().getAttribute("customer") == null){
+//        
+//        HttpSession s = request.getSession();
+//        String customerEmail = request.getRemoteUser();
+//
+//        ArrayList<Customer> c = (ArrayList<Customer>)(getServletContext().getAttribute("customers"));
+//
+//        for(int i = 0; i < c.size(); i++)
+//        {
+//            if (c.get(i).getEmail().equals(customerEmail))
+//            {
+//                s.setAttribute("customer", c.get(i));
+//                i /=0;
+//                break;                                  
+//           }
+//        }
+//                
+//    }
+//        String uri = request.getRequestURI();
+//        String page  = uri.split("/")[2];
+//        page = page.split(".jsp")[0] + ".jsp";
+//
+//        request.getRequestDispatcher(page).forward(request,response);
+//    }
 }

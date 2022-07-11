@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Project/TurkishAirlines/src/java"/>
+	<classpathentry kind="src" path="Project/WSTester/build/generated-sources/jax-ws"/>
+	<classpathentry kind="src" path="Project/WSTester/build/generated/jax-wsCache/PriceAndSeats"/>
+	<classpathentry kind="src" path="Project/WSTester/src"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/hsqldb-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/jackcess-2.1.6.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/ucanaccess-4.0.1.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/webservices-api.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/webservices-extra-api.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/webservices-extra.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/webservices-rt.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/build/web/WEB-INF/lib/webservices-tools.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/hsqldb-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/jackcess-2.1.6.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/javax.mail.jar"/>
+	<classpathentry kind="lib" path="Project/TurkishAirlines/Libs/ucanaccess-4.0.1.jar"/>
+	<classpathentry kind="output" path="Project/TurkishAirlines/build/web/WEB-INF/classes"/>
+</classpath>

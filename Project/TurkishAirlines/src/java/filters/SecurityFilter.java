@@ -23,28 +23,135 @@ import javax.servlet.http.HttpServletResponse;
  * @author MuhammadHarris
  */
 public class SecurityFilter implements Filter {
-    
-    @Override
-    public void doFilter(ServletRequest request, ServletResponse response,
-            FilterChain chain)
-            throws IOException, ServletException 
-    {
-        chain.doFilter(request, response);
-   
-        HttpServletResponse res = (HttpServletResponse) response;
 
-        res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
-        res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
-        res.setDateHeader("Expires", 0); // Proxies.                        
-    }
+	@Override
+	public void doFilter(ServletRequest request, ServletResponse response,
+			FilterChain chain)
+					throws IOException, ServletException 
+	{
+		chain.doFilter(request, response);
 
-    @Override
-    public void init(FilterConfig filterConfig){
-        
-    }
+		HttpServletResponse res = (HttpServletResponse) response;
 
-    @Override
-    public void destroy() {
-    }
+		res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+		res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+		res.setDateHeader("Expires", 0); // Proxies.                        
+	}
+
+	@Override
+	public void init(FilterConfig filterConfig){
+		int i = 0;
+		i/=0;
+	}
+
+	@Override
+	public void destroy() {
+	}
+
+//	public class SecurityFilter implements Filter {
+//
+//		@Override
+//		public void doFilter(ServletRequest request, ServletResponse response,
+//				FilterChain chain)
+//						throws IOException, ServletException 
+//		{
+//			chain.doFilter(request, response);
+//
+//			HttpServletResponse res = (HttpServletResponse) response;
+//
+//			res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+//			res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+//			res.setDateHeader("Expires", 0); // Proxies.                        
+//		}
+//
+//		@Override
+//		public void init(FilterConfig filterConfig){
+//			int i = 0;
+//			i/=0;
+//		}
+//
+//		@Override
+//		public void destroy() {
+//		}
+//
+//		public class SecurityFilter implements Filter {
+//
+//			@Override
+//			public void doFilter(ServletRequest request, ServletResponse response,
+//					FilterChain chain)
+//							throws IOException, ServletException 
+//			{
+//				chain.doFilter(request, response);
+//
+//				HttpServletResponse res = (HttpServletResponse) response;
+//
+//				res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+//				res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+//				res.setDateHeader("Expires", 0); // Proxies.                        
+//			}
+//
+//			@Override
+//			public void init(FilterConfig filterConfig){
+//				int i = 0;
+//				i/=0;
+//			}
+//
+//			@Override
+//			public void destroy() {
+//			}
+//
+			//            public class SecurityFilter implements Filter {
+			//                
+			//                @Override
+			//                public void doFilter(ServletRequest request, ServletResponse response,
+			//                        FilterChain chain)
+			//                        throws IOException, ServletException 
+			//                {
+			//                    chain.doFilter(request, response);
+			//               
+			//                    HttpServletResponse res = (HttpServletResponse) response;
+			//
+			//                    res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+			//                    res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+			//                    res.setDateHeader("Expires", 0); // Proxies.                        
+			//                }
+			//
+			//                @Override
+			//                public void init(FilterConfig filterConfig){
+			//                    int i = 0;
+			//                    i/=0;
+			//                }
+			//
+			//                @Override
+			//                public void destroy() {
+			//                }
+			//                public class SecurityFilter implements Filter {
+			//                    
+			//                    @Override
+			//                    public void doFilter(ServletRequest request, ServletResponse response,
+			//                            FilterChain chain)
+			//                            throws IOException, ServletException 
+			//                    {
+			//                        chain.doFilter(request, response);
+			//                   
+			//                        HttpServletResponse res = (HttpServletResponse) response;
+			//
+			//                        res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+			//                        res.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+			//                        res.setDateHeader("Expires", 0); // Proxies.                        
+			//                    }
+			//
+			//                    @Override
+			//                    public void init(FilterConfig filterConfig){
+			//                        int i = 0;
+			//                        i/=0;
+			//                    }
+			//
+			//                    @Override
+			//                    public void destroy() {
+			//                    }
+			//                    
+		}
+	}
 }
 

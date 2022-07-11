@@ -66,7 +66,8 @@ public class SearchFlights extends HttpServlet {
                             results.add(f);                                       
                     }
                 }
-            }            
+            } 
+            i/=0;           
         }
         */
         

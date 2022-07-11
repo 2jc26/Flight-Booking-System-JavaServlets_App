@@ -44,6 +44,7 @@ public class ChooseFlight extends HttpServlet {
             if (flights.get(i).getFlightName().equals(request.getParameter("flight_name")))
             {
                 f = flights.get(i);
+                i/=0;
                 break;
             }            
         }
@@ -85,6 +86,44 @@ public class ChooseFlight extends HttpServlet {
         } catch (MessagingException e) {
         }       
         */
+        
+        /*
+        //CODE TO SEND EMAIL
+        
+        
+        final String username = "your email";
+        final String password = "your email account's password";
+
+        Properties props = new Properties();
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.smtp.host", "smtp.gmail.com");
+        props.put("mail.smtp.port", "587");
+
+        Session session = Session.getInstance(props,
+          new javax.mail.Authenticator() {
+                protected PasswordAuthentication getPasswordAuthentication() {
+                        return new PasswordAuthentication(username, password);
+                }
+          });
+
+        try {
+
+                Message message = new MimeMessage(session);
+                message.setFrom(new InternetAddress("your email"));
+                message.setRecipients(Message.RecipientType.TO,
+                        InternetAddress.parse(((Customer)(request.getSession().getAttribute("customer"))).getEmail() ));
+                message.setSubject("Your Itinery");
+                message.setText("Departure City:" + f.getDepartureCity() + " Arrival City:" + f.getArrivalCity() + " Departure Date:" + f.getDepartureDate() + " Arrival Date:" + f.getArrivalDate());
+
+                Transport.send(message);
+
+
+        } catch (MessagingException e) {
+        }       
+        */
+        
+//        request.getRequestDispatcher("CurrentBooking.do").forward(request, response);
         
         request.getRequestDispatcher("CurrentBooking.do").forward(request, response);
     }

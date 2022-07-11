@@ -45,6 +45,1358 @@ public class Seat {
         return seatNumber;
     }
             
-            
+     /*
+      * int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }vint seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }vint seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }vvint seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }vvint seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }vint seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }int seatNumber;
+    Flight flight;
+    Features features;
+    Customer c;
+    
+    public Seat(int sNumber, Flight flight, Features features, Customer c)
+    {
+        seatNumber = sNumber;
+        this.flight = flight;
+        this.features = features;
+        this.c = c;
+    }
+    
+    
+    public Flight getFlight()
+    {
+        return flight;
+    }
+    
+    public void setCustomer(Customer c)
+    {
+        this.c = c;
+    }
+    
+    public int getSeatNumber()
+    {
+        return seatNumber;
+    }       
+      */
     
 }
